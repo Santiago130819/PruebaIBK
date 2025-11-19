@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Compras en SHOP utilizando Serenity Screenplay" skipped="0" tests="1" time="7.03" timestamp="2025-11-19 05:23:00"><testcase name="Agregar chaqueta hombre XL y mujer S y validar el precio total"><error message="element not interactable: element has zero size&#10;  (Session info: chrome=142.0.7444.176)&#10;Build info: version: '4.21.0', revision: '79ed462ef4'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8cb1b4bc785d8aa8e09dff4ffd7283f9, clickElement {id=f.0823BA789272905939DD9821232D2A8A.d.54E98D99C2A7FF23AF6361D733362385.e.57}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\josei\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55379}, goog:processID: 12060, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55379/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [org.openqa.selenium.remote.RemoteWebElement@f08d36fa -&gt; unknown locator]&#10;Session ID: 8cb1b4bc785d8aa8e09dff4ffd7283f9" type="org.openqa.selenium.ElementNotInteractableException">element not interactable: element has zero size
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8cb1b4bc785d8aa8e09dff4ffd7283f9, clickElement {id=f.0823BA789272905939DD9821232D2A8A.d.54E98D99C2A7FF23AF6361D733362385.e.57}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\josei\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55379}, goog:processID: 12060, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55379/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [org.openqa.selenium.remote.RemoteWebElement@f08d36fa -&gt; unknown locator]
+Session ID: 8cb1b4bc785d8aa8e09dff4ffd7283f9</error><system-err>element not interactable: element has zero size
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8cb1b4bc785d8aa8e09dff4ffd7283f9, clickElement {id=f.0823BA789272905939DD9821232D2A8A.d.54E98D99C2A7FF23AF6361D733362385.e.57}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\josei\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55379}, goog:processID: 12060, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55379/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [org.openqa.selenium.remote.RemoteWebElement@f08d36fa -&gt; unknown locator]
+Session ID: 8cb1b4bc785d8aa8e09dff4ffd7283f9&#13;
+com.intercorp.shop.interactions.ClickCatalogoGenero.performAs(ClickCatalogoGenero.java:31)&#13;
+net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:519)&#13;
+net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:499)&#13;
+net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:471)&#13;
+net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:213)&#13;
+net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:200)&#13;
+net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:92)&#13;
+com.intercorp.shop.tasks.AgregarPrenda.performAs(AgregarPrenda.java:35)&#13;
+net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:519)&#13;
+net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:499)&#13;
+net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:471)&#13;
+net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:213)&#13;
+net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:200)&#13;
+net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:92)&#13;
+com.intercorp.shop.steps.ShopStepDefs.agregaRopa(ShopStepDefs.java:36)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:56)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)&#13;
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:332)&#13;
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:53)&#13;
+</system-err></testcase></testsuite>

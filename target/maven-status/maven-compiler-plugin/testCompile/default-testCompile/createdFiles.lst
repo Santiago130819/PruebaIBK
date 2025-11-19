@@ -1,0 +1,11 @@
+com\intercorp\shop\questions\PrecioTotal.class
+com\intercorp\shop\utils\CSVReader.class
+com\intercorp\shop\tasks\AbrirPagina.class
+com\intercorp\shop\runner\ShopTest.class
+com\intercorp\shop\tasks\AgregarPrenda.class
+com\intercorp\shop\utils\ShadowUtils.class
+com\intercorp\shop\steps\ShopStepDefs.class
+com\intercorp\shop\ui\ShopPage.class
+com\intercorp\shop\interactions\ClickProductoExacto.class
+com\intercorp\shop\config\ChromeWdmDriver.class
+com\intercorp\shop\interactions\ClickCatalogoGenero.class

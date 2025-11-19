@@ -1,0 +1,11 @@
+C:\reto-tae-serenity-final\src\test\java\com\intercorp\shop\config\ChromeWdmDriver.java
+C:\reto-tae-serenity-final\src\test\java\com\intercorp\shop\interactions\ClickCatalogoGenero.java
+C:\reto-tae-serenity-final\src\test\java\com\intercorp\shop\interactions\ClickProductoExacto.java
+C:\reto-tae-serenity-final\src\test\java\com\intercorp\shop\questions\PrecioTotal.java
+C:\reto-tae-serenity-final\src\test\java\com\intercorp\shop\runner\ShopTest.java
+C:\reto-tae-serenity-final\src\test\java\com\intercorp\shop\steps\ShopStepDefs.java
+C:\reto-tae-serenity-final\src\test\java\com\intercorp\shop\tasks\AbrirPagina.java
+C:\reto-tae-serenity-final\src\test\java\com\intercorp\shop\tasks\AgregarPrenda.java
+C:\reto-tae-serenity-final\src\test\java\com\intercorp\shop\ui\ShopPage.java
+C:\reto-tae-serenity-final\src\test\java\com\intercorp\shop\utils\CSVReader.java
+C:\reto-tae-serenity-final\src\test\java\com\intercorp\shop\utils\ShadowUtils.java
