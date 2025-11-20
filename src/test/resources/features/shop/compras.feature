@@ -5,7 +5,7 @@ Feature: Compras en SHOP utilizando Serenity Screenplay
 
   @Escenario1
   Scenario: Agregar chaqueta hombre XL y mujer S y validar el precio total
-    When agrega una "Android Nylon Packable Jacket" para "hombre" talla "XL"
+    When agrega una "YouTube Ultimate Hooded Sweatshirt" para "hombre" talla "XL"
     And agrega una "jacket" para "mujer" talla "S"
     Then el total mostrado debe corresponder a la suma de los productos
 
